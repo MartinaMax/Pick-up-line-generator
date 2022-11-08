@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="icons/favicomatic/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="icons/favicomatic/favicon-16x16.png" sizes="16x16" />
+<script src="https://kit.fontawesome.com/bc403a68a5.js" crossorigin="anonymous"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script src="js/script.js" defer></script>
+  <title>Pick Up Line Generator</title>
+</head>
+
+<body>
+ <!-- Header -->
+  <header>
+    <div class="navigation">
+      <a href="index.html" class="title">Pick Up Line Generator</a>
+      
+      <div class="sign-in-options">
+        <a>
+            <button class="sign-up-button">
+          Sign Up</button>
+        </a>
+        <a href="login.html">
+            <button class="login-button">
+          <i class="fa-regular fa-user"></i>Login</button> 
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- First Box -->
+    <div class="generate-random-box">
+      <p class="generate-random-header">
+        Generate a random pick up line
+      </p>
+      <!-- random generator output -->
+      <p id="pGRandom" class="random-pick-up-line">Pick up line</p>
+      <div id="divOutput"></div>
+      <div>
+        <hr>
+        <button id="btnGRandom" class="generate-random-button">
+        Generate
+      
+      </button></div>
+    </div>
+
+    <!-- Second Box -->
+    <div class="generate-defined-box">
+      <p class="generate-defined-header">
+        Choose what you want and get the perfect pick up line for you
+      </p>
+
+      <select id="themeSelect" name="theme-list" class="theme-list" >
+        <option value="" disabled selected hidden>Choose a theme</option>
+        <option value="Wholesome">Wholesome</option>
+        <option value="Dark Humor">Dark Humor</option>
+        <option value="Cringy">Cringy</option>
+        <option value="Christmas">Christmas</option>
+        <option value="Halloween">Halloween</option>
+        <option value="IT">IT</option>
+      </select>
+
+      <!-- theme-defined generator output -->
+      <p id="pGChoice" class="random-pick-up-line">Pick up line</p>
+      <div id ='divOutputR'></div>
+      <div>
+        <hr>
+        <button id="btnGChoice" class="generate-defined-button">
+        Generate
+      </button></div>
+    </div>
+  </main>
+
+</body>
+
+</html>

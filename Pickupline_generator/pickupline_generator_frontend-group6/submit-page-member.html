@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="icons/favicomatic/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="icons/favicomatic/favicon-16x16.png" sizes="16x16" />
+<script src="https://kit.fontawesome.com/bc403a68a5.js" crossorigin="anonymous"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <script src="js/member.js" defer></script>
+  <title>Pick Up Line Generator</title>
+</head>
+
+<body>
+  
+<!-- Header -->
+<header>
+  <div class="navigation">
+    <a href="index.html" class="title">Pick Up Line Generator</a>
+    
+    <div class="sign-in-options">
+          <button id="btnLogOut" class="sign-up-button">
+        Log Out</button>
+    </div>
+  </div>
+</header>
+
+<main >
+  <div class="content-box">
+    <div class="user-box">
+      <div class="user-icon-box">
+      <img class="user-icon" src="icons/login-icon.png" alt="">
+      <p id='username' class="username"></p>
+    </div>
+    </div>
+    <div class="submit-box">
+      <p class="submit-header-user">
+        <i class="fa-regular fa-pen-to-square"></i>
+        Got a pick up line of your own you would like to share?
+      </p>
+      <textarea id='pickuplineSubmit' class="pickup-line-input"></textarea>
+      <button id="btnSubmit" class="submit-button">Submit</button>
+    </div>
+    
+    
+  </div>
+  <div class="submitted-pickuplines-box">
+    <input type="number" id="pickuplineID">
+      <textarea id="pickuplineText" class="submitted-pickuplines"></textarea>
+      <div class="action-buttons">
+        <button id="btnUpdate" class="update-button">Update</button>
+        <button id="btnDelete" class="delete-button"><i class="fa-regular fa-trash-can"></i>Delete</button>
+      </div>
+    </div>
+</main>
+
+
+</body>
