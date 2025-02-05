@@ -20,5 +20,3 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Azure](https://img.shields.io/badge/azure-008BD8.svg?style=for-the-badge&logo=azurel&logoColor=white)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
