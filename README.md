@@ -1,4 +1,4 @@
-<!-- ABOUT THE PROJECT -->
+
 <h1 align="center">Pick-up line generator</h1>
 <h3 align="center">2022</h3>
 
